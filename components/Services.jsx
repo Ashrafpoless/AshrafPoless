@@ -28,7 +28,7 @@ const Services = () => {
          transition={{delay:0.3, duration: 0.5}}
        
        >
-          I am a junior fullstack developer from Brighton ...... 
+          I am a junior fullstack developer from [Geel-Belguim, Brighton-UK]  
        </motion.p>
 
        <motion.div className="grid grid-cols-auto gap-6 my-10 "
@@ -41,7 +41,7 @@ const Services = () => {
               <Image src={icon} alt={title} className="w-10"/>
               <h3 className="text-lg my-4 text-gray-700 dark:text-white">{title}</h3>
               <p className="text-sm text-gray-600 leading-5 dark:text-white/80">{description}</p>
-              <a href={link} className="flex items-center gap-2 text-sm mt-5"> Read More <Image src={assets.right_arrow} alt="Learn More Link" className="w-4"/> </a>
+              {/*<a href={link} className="flex items-center gap-2 text-sm mt-5"> Read More <Image src={assets.right_arrow} alt="Learn More Link" className="w-4"/> </a> */}
             </motion.div>
           ))}
        </motion.div>

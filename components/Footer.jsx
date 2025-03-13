@@ -15,17 +15,15 @@ const Footer = ({isDarkMode}) => {
         </div>
 
         <div className='text-center sm:flex items-center justify-between border-t-2 border-gray-400 mx-[10%] mt-12 py-6 '> 
-            <p>  &copy; 2025 Ashraf Poless. All Rights Reserved </p>
+            <p>  Made By Ashraf Poless &copy; 2025 </p>
             <ul className='flex items-center justify-center gap-10 mt-4 sm:mt-0'>
                 <li>
-                    <a target='_blank' href=''>GItHub</a>
+                    <a className='hover:color' target='_blank' href='https://github.com/Ashrafpoless'>GItHub</a>
                 </li>
                 <li>
-                    <a target='_blank' href=''>LinkedIn</a>
+                    <a target='_blank' href='https://www.linkedin.com/in/ashraf-poless-034349317/'>LinkedIn</a>
                 </li>
-                <li>
-                    <a target='_blank' href=''>GItHub</a>
-                </li>
+                
 
             </ul>
         </div>
