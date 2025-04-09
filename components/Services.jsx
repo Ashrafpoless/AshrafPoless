@@ -28,7 +28,7 @@ const Services = () => {
          transition={{delay:0.3, duration: 0.5}}
        
        >
-          I am a junior fullstack developer from [Geel-Belguim, Brighton-UK]  
+          I am a junior fullstack developer from Belguim   
        </motion.p>
 
        <motion.div className="grid grid-cols-auto gap-6 my-10 "
