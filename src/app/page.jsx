@@ -33,15 +33,16 @@ const Homepage = () => {
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
             <Link href="/portfolio">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View My Work
+            <button download className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+              View My Work 
             </button>
             </Link>
-            <Link href="/contact">
+            <a href="/Ashraf-Poless.pdf" download>
             <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact Me
+               My Resume  <Image src="/download-icon.png" alt="Download Link" width={100}
+      height={100} className="w-4  inline-block"/>
             </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
