@@ -1,5 +1,5 @@
 "use client";
-import Brain from "@/components/brain";
+import Brain from "../../components/Brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
@@ -265,7 +265,7 @@ const AboutPage = () => {
                   </div>
                   {/*  DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    lifetime{" "}
+                    2024-2033, lifetime{" "}
                   </div>
                 </div>
                 {/* CENTER */}
