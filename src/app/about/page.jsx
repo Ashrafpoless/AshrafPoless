@@ -42,7 +42,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
                I specialize in both front-end and back-end development, combining unique design with strong functionality.
-                    With experience in modern frameworks and technologies like React.js, Node.js, Express, and MySQL, I build responsive, scalable solutions tailored to users' needs. From designing seamless user interfaces to optimizing server-side performance, I mange on solving complex problems and bringing ideas to life in the digital world. when I’m not coding, I’m exploring new tech trends, working on new projects, or refining my craft to stay ahead in this ever-evolving field.
+                    With experience in modern frameworks and technologies like React.js, Node.js, Express, and MySQL, I build responsive, scalable solutions tailored to users&apos; needs. From designing seamless user interfaces to optimizing server-side performance, I mange on solving complex problems and bringing ideas to life in the digital world. when I&apos;m not coding, I&apos;m exploring new tech trends, working on new projects, or refining my craft to stay ahead in this ever-evolving field.
                     
             </p>
             {/* BIOGRAPHY QUOTE */}
@@ -197,7 +197,7 @@ const AboutPage = () => {
                   </div>
                   {/*  place */}
                   <div className="p-3 text-sm italic">
-                    HACKYOURFUTURE.{" "}
+                    HACK YOUR FUTURE.{" "}
                   </div>
                   {/*  DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
