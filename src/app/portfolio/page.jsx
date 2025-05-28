@@ -35,7 +35,7 @@ const items = [
     title: "Gemini Ai",
     desc: "Gemini AI-Powered is an innovative web application that leverages Google's Gemini API to deliver real-time, intelligent solutions across a range of domains — from content generation and data analysis to customer support and creative ideas.",
     img: "/Gemini-clone.png",
-    link: "https://google.com",
+    link: "https://gemini-clone-seven-iota.vercel.app/",
   },
 ];
 
